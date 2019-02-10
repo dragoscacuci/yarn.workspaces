@@ -1,0 +1,8 @@
+{
+  "name": "multiply",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "add": "1.0.0"
+  }
+}

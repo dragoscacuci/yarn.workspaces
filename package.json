@@ -1,0 +1,15 @@
+{
+  "name": "yarn.workspaces",
+  "version": "1.0.0",
+  "description": "A basic yarn workspaces project",
+  "main": "index.js",
+  "repository": "https://github.com/dragoscacuci/yarn.workspaces.git",
+  "author": "Dragos Vlad Cacuci",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["add", "multiply", "validateNumber", "prettyPrint"],
+  "dependencies":  {
+    "multiply": "1.0.0",
+    "prettyPrint": "1.0.0"
+  }
+}
